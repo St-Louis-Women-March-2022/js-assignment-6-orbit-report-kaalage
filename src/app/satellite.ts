@@ -14,9 +14,6 @@ export class Satellite {
 		this.operational = operational;
    }
 	
-// 	isSpaceDebris(): boolean {
-// 		return true;
-//    }
 
    shouldShowWarning() {
 	return this.type === "Space Debris";
@@ -24,4 +21,4 @@ export class Satellite {
 
 }
 
-// TODO 3a: fix isSpaceDebris check
+
